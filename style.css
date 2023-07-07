@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Karla&family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 56, 101);
+    color: rgb(255, 255, 255);
+    font-family: 'dosis', 'sans-serif';
+}
+
+
+.dark-theme {
+    background-color: black;
+    color: white;
+
+}
+button{
+    background-color: rgb(45, 111, 166) ;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.nav button {
+    width: 13rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    background-color: rgb(0, 56, 101);
+    border: none;
+    border-radius: 10px;
+    margin: 4px;
+  
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(223 227 81);
+    font-family: 'Libre Franklin', sans-serif;
+    color: black;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(17, 21, 91);
+    font-size: 1.1rem;
+}
+
+main hr {
+    border: 0;
+    background: yellow;
+    height: 0.1em;
+    margin: 40px 0px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+
+}
+
+.leftsection {
+    /*background-color: rgb(131, 66, 192);*/
+    font-size: 3rem;
+
+}
+
+.rightsection img {
+
+    /*background-color: rgb(131, 66, 192);*/
+
+    width: 100%;
+    margin-left: 90px;
+
+
+
+}
+
+
+.black {
+    color: yellow;
+
+}
+
+.text-yellow {
+    color: yellow;
+
+}
+
+#element {
+    color: yellow;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.button {
+    margin-left: 3rem;
+    margin-top: 80px;
+
+
+
+}
+
+.btn:hover {
+    color: rgb(223 227 81);
+    background-color: white;
+
+}
+
+.secondsection .box {
+    background-color: aliceblue;
+    width: 80vw;
+    height: 2px;
+    margin: 140px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.secondsection .vertical {
+    height: 60px;
+    width: 2px;
+
+
+    background-color: aliceblue;
+    margin: 0 180px;
+
+}
+
+.image-top {
+    width: 50px;
+    position: relative;
+    top: -60px;
+    left: -40px;
+
+}
+
+.vertical-title {
+    position: relative;
+    top: 10px;
+    width: 2px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 32px;
+    color: azure;
+    width: 98px;
+    font-size: 10px;
+}
+
+footer {
+    background-color: rgb(0 47 77);
+    height: 150px;
+    justify-content: space-evenly;
+
+}
+
+.footer {
+
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+}
+
+.footer ul {
+    list-style: none;
+
+
+}
+
+.footer ul li {
+    color: rgb(255, 255, 255);
+}
+
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+nav ul li a:hover {
+    color: rgb(17, 21, 91);
+    font-size: 1.1rem;
+}
+
+.footer>div {
+    width: 96x;
+}
+
+.rightsection1 {
+    margin-top: -60vh;
+}
+
+.intro .rightsection1 img {
+    width: 30%;
+    margin-left: 60vw;
+}
+
+
+
+
+
+
+
+.btn {
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 8px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(223 227 81);
+    cursor: pointer;
+
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 18px;
+    margin: 12px 0;
+}
+
+
+
+
+
+
+.contactform {
+    font-family: 'dosis', 'sans-serif';
+    font-weight: bold;
+    padding: 0 50px;
+    padding-top: 20px;
+    margin: 10px 100px;
+    height: 89.5vh;
+
+
+
+}
+
+.contactform h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(244, 240, 240);
+
+}
+
+.contactform form div {
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    color: (244, 240, 240);
+}
+
+.contactform form div button {
+    width: 103px;
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 25vw;
+    border-radius: 18px;
+    margin: 15px 0 0 0;
+    padding: 4px;
+}
+
+#emailhelp {
+    font-size: 9px;
+    color: rgb(227, 7, 7);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.contactform h1 {
+    font-family: 'dosis', 'sans-serif';
+    margin: 50px;
+
+}
+
+.contactform h2 {
+    font-family: 'dosis', 'sans-serif';
+    margin: 23px;
+
+}
+
+.contactform h3 {
+    font-family: 'dosis', 'sans-serif';
+    margin: 50px;
+
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
+
+
+
+
+}
+
+.intro {
+    margin: 10px 100px;
+    color: white;
+    height: 80vh;
+    width: 95vw;
+    margin: 45px auto;
+
+}
+
+.intro h1 {
+    font-family: 'dosis', 'sans-serif';
+    margin: 30px;
+    color: white;
+
+}
+
+.intro h3 {
+    font-family: 'dosis', 'sans-serif';
+    margin: 30px;
+    color: white;
+
+}
+
+.intro p {
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 30px;
+    color: white;
+
+
+}
+
+.skillcontainer {
+    padding: 30px;
+
+
+
+}
+
+.skillitem {
+    display: flexbox;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+
+}
+
+.skills {
+    width: 250px;
+    height: 10px;
+    background-color: aqua;
+    border: 2px solid rgb(11, 11, 11);
+    cursor: pointer;
+    margin: 2px;
+
+
+}
+
+.hundred {
+    width: 250px;
+    background-color: rgb(23, 219, 219);
+
+}
+
+.fifty {
+    width: 125px;
+    background-color: rgb(170, 113, 224);
+}
+
+.t5 {
+    width: 65px;
+    background-color: aquamarine;
+}
+
+
+@media (max-width: 1000px) {
+    * {
+        /*background-color: rgb(220, 254, 243);*/
+    }
+
+    .button {
+        font-size: 12px;
+    }
+
+    .devinfo {
+        font-size: 12px;
+    }
+
+    .devpic {
+        display: none;
+    }
+
+    .intro {
+        margin: 55px 8px;
+    }
+}
